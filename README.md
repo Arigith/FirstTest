@@ -1,6 +1,5 @@
 # FirstTest
 
 Stacey's testing file
-```python
-print(Let me Live)
-```
+
+Print("Let me live")
