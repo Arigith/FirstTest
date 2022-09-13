@@ -22,3 +22,4 @@ source $HOME/.cargo/env
 # sudo apt install build-essential
 
 cargo install bat
+echo cargo install bat is completed | cowsay
