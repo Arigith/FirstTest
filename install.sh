@@ -5,11 +5,11 @@
 sudo amazon-linux-extras install epel
 echo epel is installed
 
-#for packakage in cowsay jq tmux amazon-linux-extras epel-release sl
-#do
-#	sudo yum install -y $package
-#	echo $package was installed | cowsay
-#done
+for packakage in cowsay #jq tmux amazon-linux-extras epel-release sl
+do
+	sudo yum install -y $package
+	echo $package was installed | cowsay
+done
 
 # Install rust
 
