@@ -3,6 +3,7 @@
 # The purpose of this program is to automate the installation of packages
 
 sudo amazon-linux-extras install epel
+echo epel is installed
 
 #for packakage in cowsay jq tmux amazon-linux-extras epel-release sl
 #do
