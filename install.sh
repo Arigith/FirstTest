@@ -11,14 +11,16 @@ do
 	echo $package was installed | cowsay
 done
 
-source $HOME/.cargo/env
-
 #install ohmyzsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Install rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+1
+
+source $HOME/.cargo/env
 
 sudo apt install build-essential
 
 cargo install bat
-
-# Install rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
