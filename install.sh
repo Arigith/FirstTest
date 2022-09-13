@@ -5,7 +5,7 @@
 sudo amazon-linux-extras install epel
 echo epel is installed
 
-for package in cowsay jq tmux amazon-linux-extras epel-release sl zsh git zshrc
+for package in cowsay jq tmux epel-release sl zsh git zshrc
 do
 	sudo yum install -y $package
 	echo $package was installed | cowsay
