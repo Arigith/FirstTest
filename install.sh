@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # The purpose of this program is to automate the installation of packages
+# Raw command: curl https://raw.githubusercontent.com/Arigith/FirstTest/main/install.sh | bash
 
 sudo amazon-linux-extras install epel
-echo epel is installed
+echo epel was installed succesfully
 
 for package in cowsay jq tmux epel-release sl zsh git tldr gcc shellcheck
 do
